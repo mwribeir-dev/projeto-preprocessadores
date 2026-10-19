@@ -1,0 +1,25 @@
+// ===== VARIÁVEIS =====
+@spacing: 16px;
+@font-size: 14px;
+@base-color: #3498db;
+
+// ===== CLASSE BASE =====
+.button {
+  padding: @spacing;
+  font-size: @font-size;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: @spacing;
+  background-color: fade(@base-color, 50%); // 50% de opacidade
+
+  &:hover {
+    background-color: fade(@base-color, 70%); // 70% de opacidade
+  }
+}
+
+// ===== HERANÇA (mixin) =====
+.primary-button {
+  .button();
+  color: white;
+}

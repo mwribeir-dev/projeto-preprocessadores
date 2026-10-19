@@ -1,0 +1,25 @@
+.button {
+  padding: 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 16px;
+  background-color: rgba(52, 152, 219, 0.5);
+}
+.button:hover {
+  background-color: rgba(52, 152, 219, 0.7);
+}
+.primary-button {
+  padding: 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 16px;
+  background-color: rgba(52, 152, 219, 0.5);
+  color: white;
+}
+.primary-button:hover {
+  background-color: rgba(52, 152, 219, 0.7);
+}
